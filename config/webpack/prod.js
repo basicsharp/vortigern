@@ -26,7 +26,8 @@ var config = {
       'react-router-redux',
       'redux',
       'redux-connect',
-      'redux-thunk'
+      'redux-thunk',
+      'react-bootstrap'
     ]
   },
 
