@@ -31,6 +31,7 @@ Vortigern uses the following libraries and tools:
 - [Redux Thunk](https://github.com/gaearon/redux-thunk) for dispatching async actions.
 - [Redux Saga](https://github.com/yelouafi/redux-saga) for gathering all Side Effects logic in a central place.
 - [Redux Connect](https://github.com/makeomatic/redux-connect) for resolving async props in react-router.
+- [Reselect](https://github.com/reactjs/reselect) for implementing simple "Selector" pattern in Redux.
 - [React Helmet](https://github.com/nfl/react-helmet)
 - [classnames](https://github.com/JedWatson/classnames)
 
