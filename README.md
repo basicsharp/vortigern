@@ -29,6 +29,7 @@ Vortigern uses the following libraries and tools:
 #### Utilities
 - [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch) with [ES6-Promise](https://github.com/stefanpenner/es6-promise) for using fetch api on both client & server side.
 - [Redux Thunk](https://github.com/gaearon/redux-thunk) for dispatching async actions.
+- [Redux Saga](https://github.com/yelouafi/redux-saga) for gathering all Side Effects logic in a central place.
 - [Redux Connect](https://github.com/makeomatic/redux-connect) for resolving async props in react-router.
 - [React Helmet](https://github.com/nfl/react-helmet)
 - [classnames](https://github.com/JedWatson/classnames)
@@ -102,13 +103,13 @@ Vortigern uses the following libraries and tools:
 │   │ ├── containers            # React/Redux Containers.
 │   │ ├── helpers               # Helper Functions & Components.
 │   │ ├── redux                 # Redux related code aka data layer of the app.
-│   │ │   ├── modules           # Redux modules.   
-│   │ │   ├── reducers.ts       # Main reducers file to combine them.  
-│   │ │   └── store.ts          # Redux store, contains global app state.    
+│   │ │   ├── modules           # Redux modules.
+│   │ │   ├── reducers.ts       # Main reducers file to combine them.
+│   │ │   └── store.ts          # Redux store, contains global app state.
 │   │ └── routes.tsx            # Routes.
 │   ├── client.tsx              # Entry point for client side rendering.
 │   └── server.tsx              # Entry point for server side rendering.
-├── typings                     # Type definitions installed with typings.              
+├── typings                     # Type definitions installed with typings.
 ├── .dockerignore               # Tells docker which files to ignore.
 ├── .gitignore                  # Tells git which files to ignore.
 ├── .stylelintrc                # Configures stylelint.
