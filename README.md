@@ -33,8 +33,9 @@ Vortigern uses the following libraries and tools:
 - [Redux Saga](https://github.com/yelouafi/redux-saga) for gathering all Side Effects logic in a central place.
 - [Redux Connect](https://github.com/makeomatic/redux-connect) for resolving async props in react-router.
 - [Reselect](https://github.com/reactjs/reselect) for implementing simple "Selector" pattern in Redux.
-- [React Helmet](https://github.com/nfl/react-helmet)
-- [classnames](https://github.com/JedWatson/classnames)
+- [React Helmet](https://github.com/nfl/react-helmet) for managing document head.
+- [React Cookie](https://github.com/eXon/react-cookie) for managing cookies.
+- [classnames](https://github.com/JedWatson/classnames) for conditionally joining classNames together.
 
 ### UI
 - [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)

@@ -23,6 +23,7 @@ var config = {
       'react-dom',
       'react-router',
       'react-helmet',
+      'react-cookie',
       'react-redux',
       'react-router-redux',
       'redux',
