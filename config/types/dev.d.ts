@@ -6,6 +6,7 @@
 interface Window {
   devToolsExtension?: () => any;
   __INITIAL_STATE__?: any;
+  Promise: any;
 }
 
 interface ObjectConstructor {

@@ -18,6 +18,7 @@ var config = {
     app: './src/client.tsx',
     vendor: [
       './src/vendor/main.ts',
+      'bluebird',
       'react',
       'react-dom',
       'react-router',

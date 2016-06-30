@@ -27,7 +27,8 @@ Vortigern uses the following libraries and tools:
 - [React-Router-Redux](https://github.com/reactjs/react-router-redux) to keep application state sync with route changes.
 
 #### Utilities
-- [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch) with [ES6-Promise](https://github.com/stefanpenner/es6-promise) for using fetch api on both client & server side.
+- [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch) with ~~[ES6-Promise](https://github.com/stefanpenner/es6-promise)~~ for using fetch api on both client & server side.
+- [Bluebird](https://github.com/petkaantonov/bluebird) for fast Promise implementation.
 - [Redux Thunk](https://github.com/gaearon/redux-thunk) for dispatching async actions.
 - [Redux Saga](https://github.com/yelouafi/redux-saga) for gathering all Side Effects logic in a central place.
 - [Redux Connect](https://github.com/makeomatic/redux-connect) for resolving async props in react-router.

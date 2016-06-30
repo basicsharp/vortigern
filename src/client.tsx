@@ -1,5 +1,6 @@
-import * as e6p from 'es6-promise';
-(e6p as any).polyfill();
+import * as Bluebird from 'bluebird';
+Bluebird.config({ warnings: false });
+window.Promise = Bluebird;
 import 'isomorphic-fetch';
 
 import * as React from 'react';
