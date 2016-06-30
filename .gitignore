@@ -42,4 +42,4 @@ typings
 .idea
 
 # Cloud9 IDE
-.c9
+.c9/metadata
