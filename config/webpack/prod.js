@@ -27,6 +27,7 @@ var config = {
       'redux',
       'redux-connect',
       'redux-thunk',
+      'redux-saga',
       'react-bootstrap'
     ]
   },
