@@ -40,3 +40,6 @@ typings
 
 # JetBrains
 .idea
+
+# Cloud9 IDE
+.c9/metadata

@@ -1,5 +1,6 @@
-import * as e6p from 'es6-promise';
-(e6p as any).polyfill();
+import * as Bluebird from 'bluebird';
+Bluebird.config({ warnings: false });
+window.Promise = Bluebird;
 import 'isomorphic-fetch';
 
 import * as React from 'react';
@@ -9,7 +10,6 @@ const { Router, browserHistory } = require('react-router');
 import { syncHistoryWithStore } from 'react-router-redux';
 const { ReduxAsyncConnect } = require('redux-connect');
 import { configureStore } from './app/redux/store';
-import 'isomorphic-fetch';
 import routes from './app/routes';
 
 const store: Redux.Store = configureStore(

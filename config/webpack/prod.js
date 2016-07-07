@@ -18,15 +18,20 @@ var config = {
     app: './src/client.tsx',
     vendor: [
       './src/vendor/main.ts',
+      'bluebird',
       'react',
       'react-dom',
       'react-router',
       'react-helmet',
+      'react-cookie',
       'react-redux',
       'react-router-redux',
       'redux',
       'redux-connect',
-      'redux-thunk'
+      'redux-thunk',
+      'redux-saga',
+      'reselect',
+      'react-bootstrap'
     ]
   },
 

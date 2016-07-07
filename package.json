@@ -100,9 +100,10 @@
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
     "stylelint": "^6.2.2",
+    "stylelint-config-standard": "^9.0.0",
     "ts-loader": "^0.8.2",
-    "tslint": "^3.9.0",
-    "tslint-loader": "^2.1.4",
+    "tslint": "^3.12.1",
+    "tslint-loader": "^2.1.5",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
     "url-loader": "^0.5.7",
@@ -113,11 +114,13 @@
     "webpack-manifest-plugin": "^1.0.1"
   },
   "dependencies": {
-    "es6-promise": "^3.1.2",
+    "bluebird": "^3.4.1",
     "express": "^4.13.4",
     "history": "^2.1.0",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.0.1",
+    "react-bootstrap": "^0.29.5",
+    "react-cookie": "^0.4.7",
     "react-dom": "^15.0.1",
     "react-helmet": "^3.0.2",
     "react-redux": "^4.4.5",
@@ -125,6 +128,8 @@
     "react-router-redux": "^4.0.5",
     "redux": "^3.5.2",
     "redux-connect": "^2.4.0",
-    "redux-thunk": "^2.0.1"
+    "redux-saga": "^0.10.5",
+    "redux-thunk": "^2.0.1",
+    "reselect": "^2.5.1"
   }
 }

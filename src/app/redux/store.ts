@@ -18,15 +18,15 @@ export function configureStore(history, initialState?: any): Redux.Store {
     middlewares.push(logger);
   }
 
-  const finalCreateStore = compose(
+  const enhancer = compose(
     applyMiddleware(...middlewares),
     appConfig.env === 'development' &&
     typeof window === 'object' &&
     typeof window.devToolsExtension !== 'undefined'
       ? window.devToolsExtension() : f => f
-  )(createStore);
+  );
 
-  const store: Redux.Store = finalCreateStore(rootReducer, initialState);
+  const store: Redux.Store = createStore(rootReducer, initialState, enhancer);
 
   if (appConfig.env === 'development' && (module as any).hot) {
     (module as any).hot.accept('./reducers', () => {
