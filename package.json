@@ -13,7 +13,8 @@
     "prestart": "npm run build",
     "start": "node build/server.js",
     "start:prod": "cross-env NODE_ENV=production npm start",
-    "test": "node_modules/.bin/karma start config/test/karma.conf.js"
+    "test": "node_modules/.bin/karma start config/test/karma.conf.js",
+    "lint": "node_modules/.bin/tslint \"src/**/**.ts*\""
   },
   "author": "Barbar Startup Factory <hey@barbar.com.tr>",
   "contributors": [
@@ -102,8 +103,9 @@
     "stylelint": "^6.2.2",
     "stylelint-config-standard": "^9.0.0",
     "ts-loader": "^0.8.2",
-    "tslint": "^3.12.1",
+    "tslint": "^3.13.0",
     "tslint-loader": "^2.1.5",
+    "tslint-react": "^0.4.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",
     "url-loader": "^0.5.7",

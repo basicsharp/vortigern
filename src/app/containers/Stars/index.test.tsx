@@ -1,13 +1,13 @@
 import { expect } from 'chai';
 import { renderComponent } from '../../helpers/TestHelper';
-import { Stars } from './Stars';
+import { Stars } from './index';
 
 /** Mock App. State */
 const state: Object = {
   stars: {
     count: 61,
-    isFetching: false
-  }
+    isFetching: false,
+  },
 };
 
 describe('<Counter />', () => {
